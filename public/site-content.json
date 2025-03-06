@@ -1,0 +1,262 @@
+{
+  "brand": {
+    "name": "Maison1",
+    "logo": {
+      "icon": "Utensils",
+      "text": "Maison"
+    }
+  },
+  "navigation": {
+    "links": [
+      {
+        "label": "Menu1",
+        "path": "/menu"
+      },
+      {
+        "label": "Our Story",
+        "path": "/our-story"
+      },
+      {
+        "label": "Blog",
+        "path": "/blog"
+      },
+      {
+        "label": "Experience",
+        "path": "#experience",
+        "type": "scroll"
+      },
+      {
+        "label": "Reserve Table",
+        "path": "/reserve"
+      },
+      {
+        "label": "",
+        "path": "/admin",
+        "icon": "Settings",
+        "ariaLabel": "Admin Dashboard"
+      }
+    ]
+  },
+  "hero": {
+    "banners": [
+      {
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80",
+        "title": "A Culinary Journey test from raghavan",
+        "subtitle": "Experience the art of fine dining in the heart of the city"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80",
+        "title": "Evening Romance",
+        "subtitle": "Indulge in our exclusive couple's dining experience featuring a curated 5-course menu with wine pairing"
+      }
+    ],
+    "autoPlayInterval": 6000
+  },
+  "experience": {
+    "section": {
+      "title": "The Art of Fine Dining",
+      "subtitle": "Discover the pillars of our gastronomic excellence"
+    },
+    "cards": [
+      {
+        "icon": "Wine",
+        "title": "Culinary Excellence",
+        "description": "Experience culinary excellence with our carefully curated menu and premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80"
+      },
+      {
+        "icon": "UtensilsCrossed",
+        "title": "Michelin-Inspired Artistry",
+        "description": "Our master chefs bring decades of experience in crafting exceptional dishes.",
+        "image": "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?auto=format&fit=crop&q=80"
+      },
+      {
+        "icon": "Clock",
+        "title": "Orchestrated Perfection",
+        "description": "Every dish is prepared and served at the perfect moment for optimal taste.",
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80"
+      }
+    ]
+  },
+  "story": {
+    "hero": {
+      "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&q=80",
+      "title": "Our Story",
+      "description": "Since 1947, Maison has been more than a restaurant; it's been a journey of passion, tradition, and culinary excellence passed down through three generations."
+    },
+    "values": [
+      {
+        "icon": "UtensilsCrossed",
+        "title": "Culinary Excellence",
+        "description": "Every dish is crafted with precision, passion, and the finest ingredients, honoring traditional techniques while embracing modern innovation."
+      },
+      {
+        "icon": "Heart",
+        "title": "Family Heritage",
+        "description": "Three generations of culinary expertise have shaped our restaurant, passing down secret recipes and techniques that make each dish unique."
+      },
+      {
+        "icon": "Users",
+        "title": "Community",
+        "description": "We believe in creating more than meals; we create memories, bringing people together through the universal language of exceptional food."
+      }
+    ]
+  },
+  "blog": {
+    "header": {
+      "title": "Culinary Insights",
+      "description": "Discover the techniques, stories, and passion behind our signature dishes"
+    },
+    "posts": [
+      {
+        "id": "wagyu-preparation",
+        "title": "The Art of Wagyu",
+        "subtitle": "Mastering the perfect sear and temperature",
+        "content": "Our master chef demonstrates the intricate process of preparing the perfect Wagyu steak. The key lies in bringing the meat to room temperature, seasoning it properly, and achieving the perfect sear while maintaining a medium-rare center.",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80",
+        "videoThumbnail": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&q=80",
+        "videoUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4",
+        "chef": "Philippe Maison",
+        "date": "2024-01-15",
+        "readTime": "5 min"
+      },
+      {
+        "id": "truffle-risotto",
+        "title": "Perfect Truffle Risotto",
+        "subtitle": "A symphony of flavors and textures",
+        "content": "Learn the secrets behind our award-winning truffle risotto. From selecting the finest Carnaroli rice to the precise timing of adding the black truffle, every step is crucial in creating this signature dish.",
+        "image": "https://images.unsplash.com/photo-1676037150408-4b59a542fa7c?auto=format&fit=crop&q=80",
+        "videoThumbnail": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?auto=format&fit=crop&q=80",
+        "videoUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4",
+        "chef": "Isabella Romano",
+        "date": "2024-01-10",
+        "readTime": "6 min"
+      }
+    ]
+  },
+  "reservation": {
+    "header": {
+      "title": "Reserve Your Table",
+      "description": "Join us for an unforgettable dining experience"
+    },
+    "info": {
+      "hours": {
+        "weekdays": {
+          "label": "Monday - Thursday",
+          "time": "5:00 PM - 10:00 PM"
+        },
+        "weekends": {
+          "label": "Friday - Saturday",
+          "time": "5:00 PM - 11:00 PM"
+        },
+        "sunday": {
+          "label": "Sunday",
+          "time": "5:00 PM - 9:00 PM"
+        }
+      },
+      "location": {
+        "street": "123 Culinary Avenue",
+        "area": "Gastronomy District",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001"
+      },
+      "contact": {
+        "phone": "(212) 555-0123"
+      },
+      "note": "For parties larger than 8, please call us directly to arrange your reservation."
+    },
+    "form": {
+      "labels": {
+        "date": "Select Date",
+        "time": "Select Time",
+        "guests": "Number of Guests",
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "specialRequests": "Special Requests"
+      },
+      "placeholders": {
+        "name": "Enter your full name",
+        "email": "Enter your email address",
+        "phone": "Enter your phone number",
+        "specialRequests": "Any dietary restrictions or special occasions?"
+      }
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Subscribe to our newsletter",
+      "description": "Stay updated with our latest offerings and special events"
+    },
+    "linkGroups": [
+      {
+        "title": "Restaurant",
+        "links": [
+          {
+            "label": "About Us",
+            "href": "#"
+          },
+          {
+            "label": "Careers",
+            "href": "#"
+          },
+          {
+            "label": "Press",
+            "href": "#"
+          },
+          {
+            "label": "Gift Cards",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Services",
+        "links": [
+          {
+            "label": "Private Events",
+            "href": "#"
+          },
+          {
+            "label": "Catering",
+            "href": "#"
+          },
+          {
+            "label": "Wine Club",
+            "href": "#"
+          },
+          {
+            "label": "Reservations",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "social": {
+      "links": [
+        {
+          "platform": "Instagram",
+          "icon": "Instagram",
+          "href": "#",
+          "ariaLabel": "Instagram"
+        },
+        {
+          "platform": "Facebook",
+          "icon": "Facebook",
+          "href": "#",
+          "ariaLabel": "Facebook"
+        },
+        {
+          "platform": "Twitter",
+          "icon": "Twitter",
+          "href": "#",
+          "ariaLabel": "Twitter"
+        }
+      ]
+    },
+    "copyright": {
+      "text": "© 2025 Maison. All rights reserved."
+    }
+  }
+}

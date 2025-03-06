@@ -1,0 +1,409 @@
+{
+  "brand": {
+    "name": "Maison1",
+    "logo": {
+      "icon": "Utensils",
+      "text": "Maison"
+    }
+  },
+  "navigation": {
+    "links": [
+      {
+        "label": "Menu1",
+        "path": "/menu",
+        "isEnabled": false
+      },
+      {
+        "label": "Our Story",
+        "path": "/about",
+        "isEnabled": false
+      },
+      {
+        "label": "Gallery",
+        "path": "/gallery",
+        "isEnabled": false
+      },
+      {
+        "label": "Events",
+        "path": "/events",
+        "isEnabled": false
+      },
+      {
+        "label": "Blog",
+        "path": "/blog",
+        "isEnabled": false
+      },
+      {
+        "label": "Experience",
+        "path": "#experience",
+        "type": "scroll",
+        "isEnabled": false
+      },
+      {
+        "label": "Reserve Table",
+        "path": "/reservation",
+        "isEnabled": false
+      },
+      {
+        "label": "Contact",
+        "path": "/contact",
+        "isEnabled": false
+      }
+    ]
+  },
+  "hero": {
+    "banners": [
+      {
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80",
+        "title": "A Culinary Journey test from raghavan",
+        "subtitle": "Experience the art of fine dining in the heart of the city"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80",
+        "title": "Evening Romance",
+        "subtitle": "Indulge in our exclusive couple's dining experience featuring a curated 5-course menu with wine pairing"
+      }
+    ],
+    "autoPlayInterval": 6000
+  },
+  "experience": {
+    "section": {
+      "title": "The Art of Fine Dining",
+      "subtitle": "Discover the pillars of our gastronomic excellence"
+    },
+    "cards": [
+      {
+        "icon": "Wine",
+        "title": "Culinary Excellence",
+        "description": "Experience culinary excellence with our carefully curated menu and premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80"
+      },
+      {
+        "icon": "UtensilsCrossed",
+        "title": "Michelin-Inspired Artistry",
+        "description": "Our master chefs bring decades of experience in crafting exceptional dishes.",
+        "image": "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?auto=format&fit=crop&q=80"
+      },
+      {
+        "icon": "Clock",
+        "title": "Orchestrated Perfection",
+        "description": "Every dish is prepared and served at the perfect moment for optimal taste.",
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80"
+      }
+    ]
+  },
+  "story": {
+    "hero": {
+      "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&q=80",
+      "title": "Our Story",
+      "description": "Since 1947, Maison has been more than a restaurant; it's been a journey of passion, tradition, and culinary excellence passed down through three generations."
+    },
+    "values": [
+      {
+        "icon": "UtensilsCrossed",
+        "title": "Culinary Excellence",
+        "description": "Every dish is crafted with precision, passion, and the finest ingredients, honoring traditional techniques while embracing modern innovation."
+      },
+      {
+        "icon": "Heart",
+        "title": "Family Heritage",
+        "description": "Three generations of culinary expertise have shaped our restaurant, passing down secret recipes and techniques that make each dish unique."
+      },
+      {
+        "icon": "Users",
+        "title": "Community",
+        "description": "We believe in creating more than meals; we create memories, bringing people together through the universal language of exceptional food."
+      }
+    ]
+  },
+  "blog": {
+    "header": {
+      "title": "Culinary Insights",
+      "description": "Discover the techniques, stories, and passion behind our signature dishes"
+    },
+    "posts": [
+      {
+        "id": "wagyu-preparation",
+        "title": "The Art of Wagyu",
+        "subtitle": "Mastering the perfect sear and temperature",
+        "content": "Our master chef demonstrates the intricate process of preparing the perfect Wagyu steak. The key lies in bringing the meat to room temperature, seasoning it properly, and achieving the perfect sear while maintaining a medium-rare center.",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80",
+        "videoThumbnail": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&q=80",
+        "videoUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4",
+        "chef": "Philippe Maison",
+        "date": "2024-01-15",
+        "readTime": "5 min"
+      },
+      {
+        "id": "truffle-risotto",
+        "title": "Perfect Truffle Risotto",
+        "subtitle": "A symphony of flavors and textures",
+        "content": "Learn the secrets behind our award-winning truffle risotto. From selecting the finest Carnaroli rice to the precise timing of adding the black truffle, every step is crucial in creating this signature dish.",
+        "image": "https://images.unsplash.com/photo-1676037150408-4b59a542fa7c?auto=format&fit=crop&q=80",
+        "videoThumbnail": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?auto=format&fit=crop&q=80",
+        "videoUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4",
+        "chef": "Isabella Romano",
+        "date": "2024-01-10",
+        "readTime": "6 min"
+      }
+    ]
+  },
+  "reservation": {
+    "header": {
+      "title": "Reserve Your Table",
+      "description": "Join us for an unforgettable dining experience"
+    },
+    "info": {
+      "hours": {
+        "weekdays": {
+          "label": "Monday - Thursday",
+          "time": "5:00 PM - 10:00 PM"
+        },
+        "weekends": {
+          "label": "Friday - Saturday",
+          "time": "5:00 PM - 11:00 PM"
+        },
+        "sunday": {
+          "label": "Sunday",
+          "time": "5:00 PM - 9:00 PM"
+        }
+      },
+      "location": {
+        "street": "123 Culinary Avenue",
+        "area": "Gastronomy District",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001"
+      },
+      "contact": {
+        "phone": "(212) 555-0123"
+      },
+      "note": "For parties larger than 8, please call us directly to arrange your reservation."
+    },
+    "form": {
+      "labels": {
+        "date": "Select Date",
+        "time": "Select Time",
+        "guests": "Number of Guests",
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "specialRequests": "Special Requests"
+      },
+      "placeholders": {
+        "name": "Enter your full name",
+        "email": "Enter your email address",
+        "phone": "Enter your phone number",
+        "specialRequests": "Any dietary restrictions or special occasions?"
+      }
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Subscribe to our newsletter",
+      "description": "Stay updated with our latest offerings and special events"
+    },
+    "linkGroups": [
+      {
+        "title": "Restaurant",
+        "links": [
+          {
+            "label": "About Us",
+            "href": "#"
+          },
+          {
+            "label": "Careers",
+            "href": "#"
+          },
+          {
+            "label": "Press",
+            "href": "#"
+          },
+          {
+            "label": "Gift Cards",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Services",
+        "links": [
+          {
+            "label": "Private Events",
+            "href": "#"
+          },
+          {
+            "label": "Catering",
+            "href": "#"
+          },
+          {
+            "label": "Wine Club",
+            "href": "#"
+          },
+          {
+            "label": "Reservations",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "social": {
+      "links": [
+        {
+          "platform": "Instagram",
+          "icon": "Instagram",
+          "href": "#",
+          "ariaLabel": "Instagram"
+        },
+        {
+          "platform": "Facebook",
+          "icon": "Facebook",
+          "href": "#",
+          "ariaLabel": "Facebook"
+        },
+        {
+          "platform": "Twitter",
+          "icon": "Twitter",
+          "href": "#",
+          "ariaLabel": "Twitter"
+        }
+      ]
+    },
+    "copyright": {
+      "text": "© 2025 Maison. All rights reserved."
+    }
+  },
+  "gallery": {
+    "section": {
+      "title": "Our Gallery",
+      "subtitle": "Explore our beautiful moments and creations"
+    },
+    "images": [
+      {
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80",
+        "title": "Fine Dining Experience",
+        "description": "Elegant ambiance for a perfect evening"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80",
+        "title": "Culinary Masterpiece",
+        "description": "Expertly crafted dishes by our master chefs"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?auto=format&fit=crop&q=80",
+        "title": "Signature Desserts",
+        "description": "Sweet delights to complete your meal"
+      }
+    ]
+  },
+  "events": {
+    "section": {
+      "title": "Upcoming Events",
+      "subtitle": "Join us for special occasions and culinary experiences"
+    },
+    "items": [
+      {
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80",
+        "title": "Wine Tasting Evening",
+        "description": "Join us for an exclusive wine tasting event featuring premium selections",
+        "date": "2025-04-15",
+        "time": "19:00",
+        "location": "Main Dining Hall"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80",
+        "title": "Chef's Special Dinner",
+        "description": "A five-course meal prepared by our award-winning chef",
+        "date": "2025-04-22",
+        "time": "20:00",
+        "location": "Private Dining Room"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?auto=format&fit=crop&q=80",
+        "title": "Cooking Masterclass",
+        "description": "Learn the secrets of gourmet cooking from our expert chefs",
+        "date": "2025-05-10",
+        "time": "15:00",
+        "location": "Culinary Studio"
+      }
+    ]
+  },
+  "contact": {
+    "header": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with us for any questions or concerns. We're here to help!"
+    },
+    "infoCards": {
+      "phone": {
+        "title": "Phone",
+        "numbers": [
+          "+1 (555) 123-4567",
+          "+1 (555) 987-6543"
+        ],
+        "hours": "Mon-Fri from 8am to 8pm"
+      },
+      "email": {
+        "title": "Email",
+        "addresses": [
+          "info@eatflow.com",
+          "support@eatflow.com"
+        ],
+        "support": "Online support"
+      },
+      "address": {
+        "title": "Address",
+        "street": "123 Healthy Street",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "label": "Headquarters"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "weekday": "Monday - Friday: 8am - 8pm",
+        "weekend": "Saturday - Sunday: 9am - 7pm",
+        "note": "Open 7 days a week"
+      }
+    },
+    "form": {
+      "title": "Get in Touch",
+      "description": "Have questions about our menu, services, or want to provide feedback? We'd love to hear from you. Fill out the form and we'll get back to you as soon as possible.",
+      "labels": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "subject": "Subject",
+        "message": "Message",
+        "submitButton": "Send Message"
+      },
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@example.com",
+        "phone": "+1 (555) 000-0000",
+        "subject": "How can we help?",
+        "message": "Your message..."
+      }
+    },
+    "callToAction": {
+      "call": {
+        "title": "Call Us",
+        "phone": "+1 (555) 123-4567"
+      },
+      "email": {
+        "title": "Email Us",
+        "address": "info@eatflow.com"
+      },
+      "visit": {
+        "title": "Visit Us",
+        "address": "123 Healthy Street, New York"
+      }
+    },
+    "location": {
+      "title": "Our Location",
+      "description": "Visit us at our restaurant or headquarters. We're conveniently located in the heart of New York City.",
+      "mapEnabled": true
+    }
+  }
+}

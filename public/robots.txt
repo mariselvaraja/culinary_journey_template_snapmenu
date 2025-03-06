@@ -1,0 +1,16 @@
+# Allow all web crawlers
+User-agent: *
+
+# Allow crawling of all content
+Allow: /
+
+# Prevent crawling of admin pages
+Disallow: /admin/
+Disallow: /admin/*
+
+# Prevent crawling of cart and checkout pages
+Disallow: /cart
+Disallow: /checkout
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml

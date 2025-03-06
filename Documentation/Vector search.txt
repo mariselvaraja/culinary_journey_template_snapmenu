@@ -1,0 +1,28 @@
+Semantic Search Implementation Documentation
+Overview
+A semantic search system using vector embeddings to find menu items based on meaning rather than just keywords. The system uses the MiniLM-L6-v2 model for generating embeddings and cosine similarity for matching.
+
+Architecture
+Components:
+
+transformers.worker.js: Web Worker for running the ML model
+embeddingsService.js: Service for managing embeddings generation
+searchService.js: Core search functionality
+Pre-computed embeddings stored in embeddings.json
+Key Features:
+
+Asynchronous embedding generation using Web Workers
+Pre-computed embeddings for performance
+Cosine similarity matching
+Category-based result grouping
+State management for search initialization
+Technical Details:
+
+Model: Xenova/all-MiniLM-L6-v2
+Vector size: 384 dimensions
+Similarity threshold: 0.5
+Top results limit: 10
+Build Configuration:
+
+Special Vite configuration for Web Worker bundling
+Cloudflare deployment considerations

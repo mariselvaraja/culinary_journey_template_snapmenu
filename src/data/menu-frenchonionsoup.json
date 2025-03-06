@@ -1,0 +1,288 @@
+{
+  "menu": {
+    "starters": [
+      {
+        "id": "french-onion-soup",
+        "name": "French Onion Soup",
+        "description": "Traditional French onion soup with caramelized onions, rich beef broth, and melted Gruyère cheese",
+        "price": 14,
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80",
+        "category": "starters",
+        "subCategory": "soups",
+        "calories": 320,
+        "nutrients": {
+          "protein": "12g",
+          "carbs": "28g",
+          "fat": "18g"
+        },
+        "allergens": ["dairy", "gluten"],
+        "dietary": {
+          "isVegetarian": false,
+          "isVegan": false,
+          "isGlutenFree": false
+        },
+        "pairings": ["Bordeaux Blend", "Wagyu Ribeye"],
+        "ingredients": ["onions", "beef stock", "Gruyère cheese", "bread"]
+      },
+      {
+        "id": "lobster-bisque",
+        "name": "Lobster Bisque",
+        "description": "Creamy lobster soup with brandy, fresh herbs, and a touch of cream",
+        "price": 18,
+        "image": "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?auto=format&fit=crop&q=80",
+        "category": "starters",
+        "subCategory": "soups",
+        "calories": 380,
+        "nutrients": {
+          "protein": "15g",
+          "carbs": "20g",
+          "fat": "25g"
+        },
+        "allergens": ["shellfish", "dairy"],
+        "dietary": {
+          "isVegetarian": false,
+          "isVegan": false,
+          "isGlutenFree": true
+        },
+        "pairings": ["Chardonnay", "Seafood Platter"],
+        "ingredients": ["lobster", "cream", "brandy", "herbs"]
+      },
+      {
+        "id": "caesar-salad",
+        "name": "Classic Caesar Salad",
+        "description": "Crisp romaine lettuce, house-made Caesar dressing, garlic croutons, and aged Parmesan",
+        "price": 16,
+        "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&q=80",
+        "category": "starters",
+        "subCategory": "salads",
+        "calories": 280,
+        "nutrients": {
+          "protein": "10g",
+          "carbs": "15g",
+          "fat": "22g"
+        },
+        "allergens": ["dairy", "eggs", "gluten"],
+        "dietary": {
+          "isVegetarian": true,
+          "isVegan": false,
+          "isGlutenFree": false
+        },
+        "pairings": ["Sauvignon Blanc", "Grilled Chicken"],
+        "ingredients": ["romaine lettuce", "Parmesan", "croutons", "Caesar dressing"]
+      }
+    ],
+    "mains": [
+      {
+        "id": "wagyu-ribeye1",
+        "name": "Wagyu Ribeye",
+        "description": "A5 grade Japanese Wagyu ribeye with roasted bone marrow and red wine reduction",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80",
+        "category": "mains",
+        "subCategory": "meat",
+        "calories": 850,
+        "nutrients": {
+          "protein": "58g",
+          "carbs": "12g",
+          "fat": "65g"
+        },
+        "allergens": ["dairy"],
+        "dietary": {
+          "isVegetarian": false,
+          "isVegan": false,
+          "isGlutenFree": true
+        },
+        "pairings": ["Château Margaux 2015", "Black Truffle Risotto"],
+        "ingredients": ["wagyu beef", "bone marrow", "herbs", "wine"]
+      },
+      {
+        "id": "sea-bass",
+        "name": "Pan-Seared Sea Bass",
+        "description": "Mediterranean sea bass with saffron risotto and lemon butter sauce",
+        "price": 42,
+        "image": "https://images.unsplash.com/photo-1534766555764-ce878a5e3a2b?auto=format&fit=crop&q=80",
+        "category": "mains",
+        "subCategory": "seafood",
+        "calories": 620,
+        "nutrients": {
+          "protein": "45g",
+          "carbs": "48g",
+          "fat": "28g"
+        },
+        "allergens": ["fish", "dairy"],
+        "dietary": {
+          "isVegetarian": false,
+          "isVegan": false,
+          "isGlutenFree": true
+        },
+        "pairings": ["Chablis", "Grilled Asparagus"],
+        "ingredients": ["sea bass", "saffron", "arborio rice", "butter", "lemon"]
+      },
+      {
+        "id": "truffle-risotto",
+        "name": "Black Truffle Risotto",
+        "description": "Creamy Arborio rice with black truffle, wild mushrooms, and aged Parmesan",
+        "price": 38,
+        "image": "https://images.unsplash.com/photo-1633964913295-ceb43826e7c1?auto=format&fit=crop&q=80",
+        "category": "mains",
+        "subCategory": "vegetarian",
+        "calories": 580,
+        "nutrients": {
+          "protein": "18g",
+          "carbs": "82g",
+          "fat": "24g"
+        },
+        "allergens": ["dairy"],
+        "dietary": {
+          "isVegetarian": true,
+          "isVegan": false,
+          "isGlutenFree": true
+        },
+        "pairings": ["Barolo", "Grilled Vegetables"],
+        "ingredients": ["arborio rice", "black truffle", "mushrooms", "Parmesan"]
+      }
+    ],
+    "desserts": [
+      {
+        "id": "creme-brulee",
+        "name": "Crème Brûlée",
+        "description": "Classic vanilla bean crème brûlée with caramelized sugar crust",
+        "price": 14,
+        "image": "https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?auto=format&fit=crop&q=80",
+        "category": "desserts",
+        "subCategory": "pastries",
+        "calories": 380,
+        "nutrients": {
+          "protein": "5g",
+          "carbs": "42g",
+          "fat": "22g"
+        },
+        "allergens": ["dairy", "eggs"],
+        "dietary": {
+          "isVegetarian": true,
+          "isVegan": false,
+          "isGlutenFree": true
+        },
+        "pairings": ["French 75", "Garden Mojito Mocktail"],
+        "ingredients": ["cream", "vanilla", "eggs", "sugar"]
+      },
+      {
+        "id": "chocolate-souffle",
+        "name": "Dark Chocolate Soufflé",
+        "description": "Warm chocolate soufflé with vanilla bean ice cream",
+        "price": 16,
+        "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&q=80",
+        "category": "desserts",
+        "subCategory": "pastries",
+        "calories": 420,
+        "nutrients": {
+          "protein": "8g",
+          "carbs": "48g",
+          "fat": "24g"
+        },
+        "allergens": ["dairy", "eggs", "gluten"],
+        "dietary": {
+          "isVegetarian": true,
+          "isVegan": false,
+          "isGlutenFree": false
+        },
+        "pairings": ["Port Wine", "Espresso"],
+        "ingredients": ["dark chocolate", "eggs", "butter", "flour"]
+      },
+      {
+        "id": "gelato-selection",
+        "name": "Artisanal Gelato Selection",
+        "description": "Three scoops of house-made gelato with seasonal flavors",
+        "price": 12,
+        "image": "https://images.unsplash.com/photo-1557142046-c704a3adf364?auto=format&fit=crop&q=80",
+        "category": "desserts",
+        "subCategory": "ice-cream",
+        "calories": 340,
+        "nutrients": {
+          "protein": "6g",
+          "carbs": "38g",
+          "fat": "18g"
+        },
+        "allergens": ["dairy"],
+        "dietary": {
+          "isVegetarian": true,
+          "isVegan": false,
+          "isGlutenFree": true
+        },
+        "pairings": ["Dessert Wine", "Biscotti"],
+        "ingredients": ["milk", "cream", "sugar", "natural flavors"]
+      }
+    ],
+    "drinks": [
+      {
+        "id": "bordeaux-blend",
+        "name": "Château Margaux 2015",
+        "description": "Premier Cru Bordeaux blend with notes of blackcurrant, tobacco, and cedar",
+        "price": 450,
+        "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80",
+        "category": "drinks",
+        "subCategory": "wine",
+        "calories": 125,
+        "nutrients": {
+          "protein": "0g",
+          "carbs": "4g",
+          "fat": "0g"
+        },
+        "allergens": ["sulfites"],
+        "dietary": {
+          "isVegetarian": true,
+          "isVegan": true,
+          "isGlutenFree": true
+        },
+        "pairings": ["Wagyu Ribeye", "Herb-Crusted Rack of Lamb"],
+        "ingredients": ["red wine grapes"]
+      },
+      {
+        "id": "french-75",
+        "name": "French 75",
+        "description": "Classic cocktail with gin, champagne, lemon juice, and simple syrup",
+        "price": 18,
+        "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80",
+        "category": "drinks",
+        "subCategory": "cocktails",
+        "calories": 180,
+        "nutrients": {
+          "protein": "0g",
+          "carbs": "12g",
+          "fat": "0g"
+        },
+        "allergens": ["sulfites"],
+        "dietary": {
+          "isVegetarian": true,
+          "isVegan": true,
+          "isGlutenFree": true
+        },
+        "pairings": ["Seafood", "Light Appetizers"],
+        "ingredients": ["gin", "champagne", "lemon juice", "simple syrup"]
+      },
+      {
+        "id": "garden-mocktail",
+        "name": "Garden Mojito Mocktail",
+        "description": "Refreshing blend of mint, lime, cucumber, and sparkling water",
+        "price": 12,
+        "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&q=80",
+        "category": "drinks",
+        "subCategory": "non-alcoholic",
+        "calories": 85,
+        "nutrients": {
+          "protein": "0g",
+          "carbs": "20g",
+          "fat": "0g"
+        },
+        "allergens": [],
+        "dietary": {
+          "isVegetarian": true,
+          "isVegan": true,
+          "isGlutenFree": true
+        },
+        "pairings": ["Any Course", "Light Desserts"],
+        "ingredients": ["mint", "lime", "cucumber", "sparkling water"]
+      }
+    ]
+  }
+}

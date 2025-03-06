@@ -1,0 +1,1 @@
+export { FoodCarousel } from './FoodCarousel';

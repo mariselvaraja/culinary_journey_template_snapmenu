@@ -1,0 +1,9 @@
+{
+  "name": "SnapMenu - Digital Menu & Ordering System",
+  "short_name": "SnapMenu",
+  "description": "Digital menu and ordering system for restaurants",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
